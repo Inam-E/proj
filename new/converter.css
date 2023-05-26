@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("wallpaper.jpg") ;
+  background-size: cover;
+  background-color: skyblue;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: darkgrey;
+}
+
+textarea {
+  width: 60%;
+  height: 150px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  border: 4px solid blue ;
+  font-size: 40px;
+  border-radius: 200px;
+  background-color: blueviolet;
+}
+
+button:hover {
+  background-color: skyblue;
+  border:white;
+}
